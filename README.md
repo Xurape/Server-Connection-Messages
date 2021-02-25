@@ -9,7 +9,7 @@ This plugin send a message in the chat and in the hud when a player joins and le
 # Requirements (To compile):
 
 - [Sourcemod 1.8+](https://sourcemod.net)
-- [CSGO Colors include](https://github.com/Maxximou5/csgo-playertrails/blob/master/scripting/include/csgocolors.inc)
+- [Multicolors](https://github.com/Bara/Multi-Colors)
 
 # Commands
 
@@ -27,6 +27,8 @@ No commands.
 
 - **sm_scm_join_enable** (Default: 1) - Enable/Disable the join message.
 - **sm_scm_left_enable** (Default: 1) - Enable/Disable the left message.
+- **sm_scm_hud** (Default: 1) - Enable/Disable the HUD messages.
+- **sm_scm_chat** (Default: 1) - Enable/Disable the chat messages.
 - **sm_scm_x** (Default: -1.0) - Horizontal Position to show the displayed message (To be centered, set as -1.0).
 - **sm_scm_y** (Default: 0.1) - Vertical Position to show the displayed message (To be centered, set as -1.0).
 - **sm_scm_holdtime** (Default: 2.0) - Time that the message is shown.
@@ -41,6 +43,6 @@ No commands.
 
 # Other things related to the plugin
 
-- [Website](https://shutap.cf)
-- [My Steam](https://steamcommunity.com/id/ShutAP1337)
-- My discord: ShutUP#4249
+- [Website](https://xuap.pt)
+- [My Steam](https://steamcommunity.com/id/xurape)
+- My discord: Xuap#3581

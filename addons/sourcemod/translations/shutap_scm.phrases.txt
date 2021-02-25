@@ -1,0 +1,39 @@
+"Phrases"
+{
+    // HUD
+    "HUD_Join"
+    {
+        "#format"      		"{1:s},{2:s}"
+        "en"			"{1} joined the server from {2}"
+        "pt"			"{1} entrou no servidor de {2}"
+    }
+
+    "HUD_Left"
+    {
+        "#format"       	"{1:s},{2:s}"
+        "en"			"{1} left the server from {2}"
+        "pt"			"{1} saiu do servidor de {2}"
+    }
+ 
+    // CHAT
+    "Chat_Join"
+    {
+        "#format"       	"{1:s},{2:s},{3:s}"
+        "en"			"[{green}+{default}] {green}{1}{olive}<{2}> {default}as joined the server from {green}[{3}]"
+        "pt"			"[{green}+{default}] {green}{1}{olive}<{2}> {default}entrou no servidor a partir de {green}[{3}]"
+    }    
+
+    "Chat_Left"
+    {
+        "#format"       	"{1:s},{2:s},{3:s}"
+        "en"			"[{darkred}-{default}] {green}{1}{olive}<{2}> {default}left the server from {green}[{3}]"
+        "pt"			"[{darkred}-{default}] {green}{1}{olive}<{2}> {default}saiu do servidor a partir de {green}[{3}]"
+    }    
+
+    // OTHER STUFF
+    "Unknown_Country"
+    {
+        "en"			"Unknown Country"
+        "pt"			"País desconhecido"
+    }
+}

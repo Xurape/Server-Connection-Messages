@@ -124,7 +124,7 @@ public OnClientPutInServer(client)
 		if(chat_enabled == 1) {
 			char traducao[256];
 			Format(traducao, sizeof(traducao), "%t", "Chat_Join", name, authid, Country);
-			PrintToChatAll(traducao);
+			CPrintToChatAll(traducao);
 		}
     	PrintToServer("Player %s <%s> has joined the server from [%s]", name, authid, Country);
         
@@ -188,7 +188,7 @@ public OnClientDisconnect(client)
 		if(chat_enabled == 1) {
 			char traducao[256];
 			Format(traducao, sizeof(traducao), "%t", "Chat_Left", name, authid, Country);
-			PrintToChatAll(traducao);
+			CPrintToChatAll(traducao);
     	}
     	PrintToServer("Player %s <%s> has left the server from [%s]", name, authid, Country);    	
         
